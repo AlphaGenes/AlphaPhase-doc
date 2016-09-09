@@ -25,6 +25,8 @@ import os
 
 # -- General configuration ------------------------------------------------
 
+authors = u'John M. Hickey \\\\ Daniel Money'
+
 # If your documentation needs a minimal Sphinx version, state it here.
 #needs_sphinx = '1.0'
 
@@ -52,7 +54,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'AlphaPhase'
-copyright = u'2016, John M. Hickey'
+copyright = u'2016, ' + authors #u'2016, John M. Hickey & Daniel Money'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -213,7 +215,8 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
   ('index', 'AlphaPhase.tex', u'AlphaPhase Documentation',
-   u'John M. Hickey', 'manual'),
+   authors, #u'John M. Hickey\nDaniel Money', 
+   'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -243,7 +246,8 @@ latex_domain_indices = True
 # (source start file, name, description, authors, manual section).
 man_pages = [
     ('index', 'alphaphase', u'AlphaPhase Documentation',
-     [u'John M. Hickey'], 1)
+     authors, #[u'John M. Hickey\nDaniel Money'],
+     1)
 ]
 
 # If true, show URL addresses after external links.
@@ -257,7 +261,7 @@ man_pages = [
 #  dir menu entry, description, category)
 texinfo_documents = [
   ('index', 'AlphaPhase', u'AlphaPhase Documentation',
-   u'John M. Hickey', 'AlphaPhase', 'One line description of project.',
+   u'John M. Hickey \and Daniel Money', 'AlphaPhase', 'One line description of project.',
    'Miscellaneous'),
 ]
 
@@ -278,9 +282,9 @@ texinfo_documents = [
 
 # Bibliographic Dublin Core info.
 epub_title = u'AlphaPhase'
-epub_author = u'John M. Hickey'
+epub_author = authors #u'John M. Hickey\nDaniel Money'
 epub_publisher = u'AlphaSuite'
-epub_copyright = u'2016, John M. Hickey'
+epub_copyright = u'2016, ' + authors # u'2016, John M. Hickey & Daniel Money'
 
 # The basename for the epub file. It defaults to the project name.
 #epub_basename = u'AlphaPhase'
