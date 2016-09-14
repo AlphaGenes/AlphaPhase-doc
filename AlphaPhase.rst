@@ -130,7 +130,7 @@ Below is a description of what each line is for. It is important to note that ``
 
 ``IterateSubsetSize`` determines the number of animals to be included in each subset when ItterateMethod is not Off.  Default is 200.
 
-``IterateIterations`` detrmines the maximum number of times each animal will be included in a subset.  Default is 1.
+``IterateIterations`` determines the maximum number of times each animal will be included in a subset.  Default is 1.
 
 ``Cores`` consists of two parameters indicating the cores to be calculated.  The first parameter indicates the core to start at while the second parameter indicates the cores to finish at.  Both parameters can be either the number of a core or ``Combine``.  ``Combine`` means perform the final combining step to combine all the cores into a single result.  For example ``1, Combine`` (default) means calculate each core and then perform the combining step.
 
