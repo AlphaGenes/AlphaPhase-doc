@@ -7,7 +7,7 @@ AlphaPhase
 
 Introduction
 ============
-|ap| is a software package for phasing genotype data. The program implements methods ddetermine phase using an extended Long Range Phasing (Kong et al., 2008, Hickey et al., 2010) and Haplotype Library Imputation (Hickey et al., 2009 and 2010). |ap| consists of a single program. All information on the model of analysis, input files and their layout, is specified in a parameter file.
+|ap| is a software package for phasing genotype data. The program implements methods determine phase using an extended Long Range Phasing (Kong et al., 2008, Hickey et al., 2010) and Haplotype Library Imputation (Hickey et al., 2009 and 2010). |ap| consists of a single program. All information on the model of analysis, input files and their layout, is specified in a parameter file.
 
 Please report bugs or suggestions on how the program / user interface / manual could be improved or made more user friendly to `alphagenes@roslin.ed.ac.uk <alphagenes@roslin.ed.ac.uk>`_
 
